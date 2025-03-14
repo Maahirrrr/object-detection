@@ -22,7 +22,7 @@ To get started with this project, follow these steps:
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/Maahirrrr/object-detectation/edit/main/obdect.py
+   git clone https://github.com/Maahirrrr/object-detection/edit/main/obdect.py
    cd your obdect.py
 2. Set Up the Environment:
 
