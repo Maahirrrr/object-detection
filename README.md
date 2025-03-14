@@ -1,4 +1,4 @@
-# object-detectation
+# object-detection
 # YOLOv8x Object Detection Project
 
 Welcome to the YOLOv8x Object Detection Project! This repository demonstrates the implementation of the YOLOv8x model for real-time object detection tasks.
