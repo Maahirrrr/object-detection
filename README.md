@@ -34,6 +34,9 @@ To get started with this project, follow these steps:
 
 2. **Set Up the Environment**:
 
+   1.Load the model by running load.py from Load Model folder.
+   2.Verify your GPU cuda cores by running cuda.py from Load Model folder (it should show "True").
+   
    Ensure you have Python 3.8 or later installed. It's recommended to use a virtual environment:
 
 python3 -m venv venv
@@ -44,10 +47,9 @@ source venv/bin/activate  # On Windows, use venv\Scripts\activate
 
 | Directory/File       | Purpose                                      | Example Contents                                      |
 |---------------------|----------------------------------------------|------------------------------------------------------|
-| dataset/            | Contains training scripts                    | train.py, train2.py                                  |
-| metrics/            | Contains validation script                   | val.py                                               |
-| model/              | Stores model files and GPU-related scripts   | cuda.py, load.py, yolov8x.pt                         |
-| requirements/       | Stores dependency list                       | requirements.txt                                     |
+| Dataset/            | Contains training scripts                    | train.py, train2.py                                  |
+| Metrics/            | Contains validation script                   | val.py                                               |
+| Load Model/         | Stores model files and GPU-related scripts   | cuda.py, load.py                                     |
 | obdect.py           | Main script for object detection             | Real-time detection with webcam                      |
 | README.md           | Provides project documentation               | This file                                            |
 
