@@ -29,7 +29,7 @@ while True:
     # Annotate the frame with the detection results
     annotated_frame = results[0].plot()
 
-    # Display the annotated frame in a window titled "YOLOv8 Real-Time Detection (Mirrored)"
+    # Display the annotated frame in a window titled
     cv2.imshow("YOLOv8 Real-Time Detection (Mirrored)", annotated_frame)
 
     # Exit the loop if the 'q' key is pressed
